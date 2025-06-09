@@ -1,8 +1,7 @@
 =================================================== TELEGRAM SOLANA CA MONITORING BOT
 This Python bot, built using the 'telethon' library, monitors a specified
 Telegram group chat for messages from a list of target users. If a message
-from a target user contains a pattern that looks like a Solana Contract
-Address (CA), the bot forwards that message to a designated private chat
+from a target user appears, the bot forwards that message to a designated private chat
 (which can be your personal chat or a BotFather bot's chat).
 
 This project is designed to be easily configurable using environment
